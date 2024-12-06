@@ -26,6 +26,10 @@ padding-top: 39px;
 padding-bottom: 39px;
 border-bottom: 3px solid #FFF;
 background: rgba(43, 74, 97, 0.87);
+background-image: linear-gradient( rgba(43, 74, 97, 0.87),  rgba(43, 74, 97, 0.87)), url(../img/heder.webp);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
 }
 .header-box{
 display: flex;
@@ -135,25 +139,38 @@ align-items: flex-end;
 .quote{
 padding-top: 75px;
 padding-bottom: 10px;
+text-align: center;
 }
 .quote-text{
-color: var(--quete-color);
-text-align: justify;
+color: #141414;
+ text-align: center;
 font-family: Inter;
 font-size: 36px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-bottom: 16px;
+}
+.quote-img{
+width: 400px;
+height: 120px;
+margin: 0 auto;
 }
 .quote-men{
-    color: #000;
-    text-align: center;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
+
+
+
+
+
+
 
 .button{
 padding-top: 330px;
@@ -162,7 +179,7 @@ background-image: url(../img/rectangle.webp);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-
+text-align: center;
 }
 .button-btn{
 color: var(--border_text-button);
@@ -175,20 +192,57 @@ line-height: normal;
 border-radius: 45px 0px;
 border: 3px solid var(--border_text-button);
 background: var(--h);
-padding-top: 25px;
-padding-bottom: 25px;
-padding-left: 19px;
-padding-right: 20px;
-width: 260px;
-height: 80px;
+padding: 25px 20px;
 }
+
+
+
+
+
+
+
 
 
 
 .quotes{
 padding-top: 75px;
 padding-bottom: 10px;
+text-align: center;
 }
+.quotes-text{
+    color: #141414;
+text-align: center;
+font-family: Inter;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 16px;
+}
+.quotes-img{
+width: 400px;
+height: 120px;
+margin: 0 auto;
+}
+.quotes-men{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+
+
+
+
+
+
+
+
+
 
 
 .translation{
@@ -198,16 +252,31 @@ background-image: url(../img/angle.webp);
 background-repeat: no-repeat;
 background-size: cover;
 }
+.translation-title{
+color: #141414;
+text-align: justify;
+font-family: HeadlandOne;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+margin-bottom: 45px;
+}
 .translation-list{
     display: flex;
     flex-wrap: wrap;
-    /* gap: 20px; */
+    gap: 20px;
+    justify-content: space-between;
 }
 .translation-box{
 width: 320px;
 height: 240px;
 background: rgba(255, 255, 255, 0.70);
-
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
 }
 .translation-text{
     color: #141414;
@@ -219,8 +288,45 @@ font-weight: 400;
 line-height: 24px; /* 100% */
 display: inline-block;
 }
-
+.translation-img{
+width: 152px;
+height: 40px;
+}
+.quot{
+padding-top: 75px;
+padding-bottom: 10px;
+text-align: center;
+}
+.quot-text{
+color: #141414;
+ text-align: center;
+font-family: Inter;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 16px;
+}
+.quot-img{
+width: 400px;
+height: 120px;
+margin: 0 auto;
+}
+.quot-men{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
 .footer{
 padding-top: 35px;
 padding-bottom: 25px;
+background-image: linear-gradient( rgba(43, 74, 97, 0.87),  rgba(43, 74, 97, 0.87)), url(../img/heder.webp);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
 }
