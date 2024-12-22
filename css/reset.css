@@ -12,3 +12,6 @@ padding: 0;
 img{
 display: block;
 }
+blockquote{
+    margin: 0;
+}
